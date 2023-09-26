@@ -1,0 +1,15 @@
+        <!ELEMENT resultados (fecha|partidos)*>
+        <!ELEMENT fecha (#PCDATA)>
+        <!ELEMENT partidos (partido)*>
+        <!ELEMENT partido (equipos|marcador|goles)*>
+        <!ELEMENT equipos (local|visitante)*>
+        <!ELEMENT local (#PCDATA)>
+        <!ELEMENT visitante (#PCDATA)>
+        <!ELEMENT marcador (#PCDATA)>
+        <!ELEMENT goles (gol)*>
+        <!ELEMENT gol (jugador)*>
+        <!ELEMENT jugador (#PCDATA)>
+        <!ATTLIST jugador
+                equipo CDATA #REQUIRED
+                minuto CDATA #REQUIRED
+                nombre CDATA #REQUIRED>

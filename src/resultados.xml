@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resultados SYSTEM "resultados.dtd">
+<resultados>
+    <fecha>2023-09-16</fecha>
+    <partidos>
+        <partido>
+            <equipos>
+                <local>America</local>
+                <visitante>Guadalajara</visitante>
+            </equipos>
+            <marcador>4-0</marcador>
+            <goles>
+                <gol>
+                    <jugador nombre="Brian Rodriguez" equipo="America" minuto="21" />
+                </gol>
+                <gol>
+                    <jugador nombre="Diego Valdes" equipo="America" minuto="37" />
+                </gol>
+                <gol>
+                    <jugador nombre="Diego Valdes" equipo="America" minuto="65"/>
+                </gol>
+                <gol>
+                    <jugador nombre="Alejandro Zendejas" equipo="America" minuto="80" />
+                </gol>
+            </goles>
+        </partido>
+        <partido>
+            <equipos>
+                <local>Monterrey</local>
+                <visitante>Leon</visitante>
+            </equipos>
+            <marcador>3-1</marcador>
+            <goles>
+                <gol>
+                    <jugador nombre="Osvaldo Rodriguez" equipo="Monterrey" minuto="36"/>
+                </gol>
+                <gol>
+                    <jugador nombre="Sergio Canales" equipo="Monterrey" minuto="45+1"/>
+                </gol>
+                <gol>
+                    <jugador nombre="Federico Viñas" equipo="León" minuto="45+7"/>
+                </gol>
+                <gol>
+                    <jugador nombre="Jordi Cortizo" equipo="Monterrey" minuto="81"/>
+                </gol>
+            </goles>
+        </partido>
+        <partido>
+            <equipos>
+                <local>Necaxa</local>
+                <visitante>Juarez</visitante>
+            </equipos>
+            <marcador>1-1</marcador>
+            <goles>
+                <gol>
+                    <jugador nombre="Facundo Batista" equipo="Necaxa" minuto="16"/>
+                </gol>
+                <gol>
+                    <jugador nombre="Jhon Chancellor" equipo="Juarez" minuto="45+8"/>
+                </gol>
+            </goles>
+        </partido>
+    </partidos>
+</resultados>
